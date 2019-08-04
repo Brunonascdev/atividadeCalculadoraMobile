@@ -73,3 +73,51 @@ input:focus {outline:0;}
   height: 142px;
   font-family: 'Fira Code', monospace;
 }
+
+#op{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  padding-left: 5px; 
+}
+
+span{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  font-family: 'Fira Code', monospace;
+  color: rgb(83, 83, 83);
+  font-size: 18px;
+}
+
+.numberDiv{
+  margin-top: 3px;
+  width: 24%;
+  border: none;
+  background-color: gainsboro;
+  height: 70px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.numberDot{
+  margin-top: 3px;
+  width: 24%;
+  border: none;
+  background-color: gainsboro;
+  height: 70px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.numberDiv:active{
+  background-color: ghostwhite;
+  color: black;
+}
+
+.numberDot:active{
+  background-color: ghostwhite;
+  color: black;
+}
