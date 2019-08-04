@@ -1,0 +1,75 @@
+button:focus {outline:0;}
+input:focus {outline:0;}
+
+
+.display{
+ text-align: right; 
+ margin-top: 15%;
+ font-size: 30px;
+ margin-bottom: 10%;
+ margin-right: 2%; 
+ font-family: 'Fira Code', monospace;
+ background: none;
+ width: 100%;
+ border: none;
+}
+
+.number{
+  margin-top: 3px;
+  width: 24%;
+  border: none;
+  background-color: ghostwhite;
+  height: 70px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.numberD{
+  margin-top: 3px;
+  width: 24%;
+  border: none;
+  background-color: gainsboro;
+  height: 70px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.espec{
+  margin-top: 15px;
+  width: 24%;
+  border: none;
+  background-color: gainsboro;
+  height: 70px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.number:active{
+  background-color: dimgrey;
+  color: white;
+}
+
+.numberD:active{
+  background-color: ghostwhite;
+  color: black;
+}
+
+.espec:active{
+  background-color: ghostwhite;
+  color: black;
+}
+
+.footer{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 18px;
+  color: white;
+  background-color: black; 
+  width: 100%;
+  padding-top: 40px;
+  height: 142px;
+  font-family: 'Fira Code', monospace;
+}
