@@ -118,7 +118,7 @@ $(function(){
        }
 
        if(op == "elevado"){
-         $("#visor").val(Math.pow(v1, 2));
+         $("#visor").val(Math.pow(v1, v2));
        }
 
      } else {
